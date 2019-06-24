@@ -22,6 +22,16 @@ import com.jcraft.jsch.SftpException;
  * @date 	2019年6月14日 下午3:05:27
  *
  */
+ 
+ 
+ /**
+ *jar依赖；
+ *	<dependency>
+ *		<groupId>com.jcraft</groupId>
+ *		<artifactId>jsch</artifactId>
+ *		<version>0.1.46</version>
+ *	</dependency>
+ */
 public class SFTPUtil implements Serializable {
 
   private static final long   serialVersionUID = 1L;
