@@ -15,7 +15,7 @@ import redis.clients.jedis.JedisShardInfo;
 import redis.clients.jedis.ShardedJedis;
 import redis.clients.jedis.ShardedJedisPool;
 
-public class ConnectionUtil {
+public class RedisConnectionUtil {
 	private static final String SERVER1="192.168.60.29";
 	private static final int PORT1=6379;
 	
